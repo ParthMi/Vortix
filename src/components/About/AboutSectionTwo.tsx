@@ -1,63 +1,92 @@
 import Image from "next/image";
+import SectionTitle from "../Common/SectionTitle";
+import { BsFillRocketTakeoffFill } from "react-icons/bs";
+import { RiLightbulbFlashFill } from "react-icons/ri";
+import { IoDiamond } from "react-icons/io5";
+import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa";
 
-const AboutSectionTwo = () => {
+const SingleBrand = ({ brand }: { brand: any }) => {
+  const { href, image, imageLight, name } = brand;
+
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <div className="w-full">
+      <div className="flex w-full items-center justify-center px-3 py-[15px]">
+        <a
+          href={href}
+          target="_blank"
+          rel="nofollow noreferrer"
+          className="relative h-[150px] w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
+        >
+          <Image src={"https://www.qassurance.com/wp-content/uploads/QAssurance-logos-4.png"} alt={name} fill className="block object-contain" />
+        </a>
+      </div>
+    </div>
+  );
+};
+const AboutSectionTwo = () => {
+  return (<>
+    <section className="py-8 md:py-12 lg:py-14">
+      <SectionTitle
+        title="Our Mission & Values"
+        paragraph=""
+        center
+      />
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
-          <div className="w-full px-4 lg:w-1/2">
-            <div
-              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
-              data-wow-delay=".15s"
-            >
-              <Image
-                src="/images/about/about-image-2.svg"
-                alt="about image"
-                fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-              />
-              <Image
-                src="/images/about/about-image-2-dark.svg"
-                alt="about image"
-                fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-              />
+        <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <div className="border-b-[10px] border-[#4a6cf7] pb-8">
+            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <BsFillRocketTakeoffFill className="text-[#4a6cf7] text-[35px] md:text-[80px]" />
             </div>
+            <h3 className="mb-2 text-xl font-bold dark:text-white">Our Mission</h3>
+            <p className="text-gray-500 dark:text-gray-400">
+              Delivering the highest quality, custom made activated carbon solutions for diverse industrial applications.
+            </p>
           </div>
-          <div className="w-full px-4 lg:w-1/2">
-            <div className="max-w-[470px]">
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
-                </p>
-              </div>
+          <div className="border-b-[10px] border-[#4a6cf7] pb-8">
+            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <RiLightbulbFlashFill className="text-[#4a6cf7] text-[35px] md:text-[80px]" />
             </div>
+            <h3 className="mb-2 text-xl font-bold dark:text-white">Our Vision</h3>
+            <p className="text-gray-500 dark:text-gray-400">
+              To become a globally leading developer and supplier of activated carbon, exceeding customer expectations through innovation and a commitment to sustainability.
+            </p>
+          </div>
+          <div className="border-b-[10px] border-[#4a6cf7] pb-8">
+            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+              <IoDiamond className="text-[#4a6cf7] text-[35px] md:text-[80px]" />
+            </div>
+            <h3 className="mb-2 text-xl font-bold dark:text-white">Our Value</h3>
+            <p className="text-gray-500 dark:text-gray-400">
+              We prioritize understanding and fulfilling unique customer needs and we are committed to delivering superior activated carbon solutions.
+            </p>
           </div>
         </div>
       </div>
     </section>
+    <hr></hr>
+    <section className="py-8 md:py-12 lg:py-14">
+      <SectionTitle
+        title="Certificates"
+        paragraph=""
+        center
+      />
+      <div className="container grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-4">
+        <SingleBrand key={1} brand={"brand"} />
+        <SingleBrand key={1} brand={"brand"} />
+        <SingleBrand key={1} brand={"brand"} />
+        <SingleBrand key={1} brand={"brand"} />
+      </div>
+      <div className="flex justify-center mt-4 mb-[-15px]">
+            <Link
+              href="/"
+              className="ease-in-up shadow-btn hover:shadow-btn-hover  rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90  md:px-9 lg:px-6 xl:px-9 !flex gap-2 items-center"
+            >
+              <span>View All Certificates</span> <span><FaArrowRight/></span>
+            </Link>
+          </div>
+    </section>
+  </>
   );
 };
 

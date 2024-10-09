@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import Link from "next/link";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -20,33 +21,21 @@ const AboutSectionOne = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
+        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-14 lg:pb-14">
+          <div className="-mx-2 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Manufacturer Of High Grade Activated Carbon"
+                paragraph="Vortix Enterprise Pvt Ltd is a leading manufacturer, developer, and supplier of high-quality activated carbon used across various industries, including gas and air treatment, water purification, pharmaceuticals, food and beverage, chemicals, industrial catalysts, energy, and mining. Specializing in enterprise-level solutions, Vortix customizes activated carbon products to meet specific client requirements. With over a decade of experience in manufacturing and product development, the company offers a wide range of products derived from diverse raw materials such as lignite, peat, bituminous coal, coconut, and wood."
+                mb="44px"
+              />
+              <SectionTitle
+                title=""
+                paragraph="
+                Vortix produces Powdered Activated Carbon (PAC), Granular Activated Carbon (GAC), and Extruded Activated Carbon (EAC), ensuring high performance across all industrial applications. Backed by a strong network of business partners, distributors, and service centers, Vortix caters to customers globally, focusing on delivering tailored solutions with an emphasis on quality, sustainability, and customer satisfaction."
                 mb="44px"
               />
 
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
@@ -65,6 +54,21 @@ const AboutSectionOne = () => {
                 />
               </div>
             </div>
+          </div>
+          <SectionTitle
+            title=""
+            paragraph="
+                Vortix Story
+                Vortix Enterprise traces its values to a strong heritage of trust, responsibility, and innovation. Inspired by the pioneering spirit of early industrial giants, the company was founded to provide essential products for industrial use while maintaining a commitment to ethics and long-term partnerships. Through its ongoing collaboration with renowned industry leaders, Vortix has established a reputation for reliability, high standards, and a strong focus on sustainability in its business practices."
+            mb="44px"
+          />
+          <div className="flex justify-center">
+            <Link
+              href="/"
+              className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
+            >
+              Enquire Now
+            </Link>
           </div>
         </div>
       </div>
