@@ -78,13 +78,13 @@ const AboutSectionTwo = () => {
         <SingleBrand key={1} brand={"brand"} />
       </div>
       <div className="flex justify-center mt-4 mb-[-15px]">
-            <Link
-              href="/"
-              className="ease-in-up shadow-btn hover:shadow-btn-hover  rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90  md:px-9 lg:px-6 xl:px-9 !flex gap-2 items-center"
-            >
-              <span>View All Certificates</span> <span><FaArrowRight/></span>
-            </Link>
-          </div>
+        <Link
+          href="/"
+          className="ease-in-up shadow-btn hover:shadow-btn-hover  rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90  md:px-9 lg:px-6 xl:px-9 !flex gap-2 items-center"
+        >
+          <span>View All Certificates</span> <span><FaArrowRight /></span>
+        </Link>
+      </div>
     </section>
   </>
   );

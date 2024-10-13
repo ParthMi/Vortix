@@ -19,7 +19,7 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="pt-8 md:pt-10 lg:pt-14">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-14 lg:pb-14">
           <div className="-mx-2 flex flex-wrap items-center">
@@ -64,7 +64,7 @@ const AboutSectionOne = () => {
           />
           <div className="flex justify-center">
             <Link
-              href="/"
+              href="/contact"
               className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
             >
               Enquire Now

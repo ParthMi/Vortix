@@ -9,15 +9,46 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "About",
+    title: "About Us",
     path: "/about",
     newTab: false,
   },
   {
-    id: 33,
+    id: 4,
     title: "Products",
-    path: "/products",
     newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "Coconut Shell Active Carbon",
+        path: "/products/Coconut-Shell-Active-Carbon",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Coal Activated Carbon",
+        path: "/products/Coal-Activated-Carbon",
+        newTab: false,
+      },
+      {
+        id: 43,
+        title: "Wood Activated Carbon",
+        path: "/products/Wood-Activated-Carbon",
+        newTab: false,
+      },
+      {
+        id: 44,
+        title: "Powdered Activated Carbon",
+        path: "/products/Powdered-Activated-Carbon",
+        newTab: false,
+      },
+      {
+        id: 45,
+        title: "Pellets Activated Carbon",
+        path: "/products/Pellets-Activated-Carbon",
+        newTab: false,
+      },
+    ],
   },
   {
     id: 33,
@@ -27,52 +58,9 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "Blog",
+    title: "Blogs",
     path: "/blog",
     newTab: false,
   },
-  // {
-  //   id: 4,
-  //   title: "Pages",
-  //   newTab: false,
-  //   submenu: [
-  //     {
-  //       id: 41,
-  //       title: "About Page",
-  //       path: "/about",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 42,
-  //       title: "Contact Page",
-  //       path: "/contact",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 43,
-  //       title: "Blog Grid Page",
-  //       path: "/blog",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 44,
-  //       title: "Blog Sidebar Page",
-  //       path: "/blog-sidebar",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 45,
-  //       title: "Blog Details Page",
-  //       path: "/blog-details",
-  //       newTab: false,
-  //     },
-  //     {
-  //       id: 48,
-  //       title: "Error Page",
-  //       path: "/error",
-  //       newTab: false,
-  //     },
-  //   ],
-  // },
 ];
 export default menuData;
