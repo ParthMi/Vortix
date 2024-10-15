@@ -38,14 +38,8 @@ const menuData: Menu[] = [
       },
       {
         id: 44,
-        title: "Powdered Activated Carbon",
-        path: "/products/Powdered-Activated-Carbon",
-        newTab: false,
-      },
-      {
-        id: 45,
-        title: "Pellets Activated Carbon",
-        path: "/products/Pellets-Activated-Carbon",
+        title: "Coconut Shell Pellets Activated Carbon",
+        path: "/products/Coconut-Shell-Pellets-Activated-Carbon",
         newTab: false,
       },
     ],
