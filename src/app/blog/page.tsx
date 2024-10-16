@@ -14,7 +14,7 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blogs"
+        pageName="Blog"
         description="Discover insightful articles on various topics, curated to keep you informed and inspired. Stay updated with the latest trends and expert opinions."
       />
 

@@ -136,13 +136,19 @@ const Header = () => {
             </div>
           }
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className=" w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
-                className={`header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-8"
+                className={`relative header-logo block w-full ${sticky ? "py-10 lg:py-8 " : "py-8"
                   } `}
               >
-                <span className="font-bold text-2xl">Vortix</span>
+                <Image
+                  src="/images/logo/logo.png"
+                  alt="about-image"
+                  layout="fill"
+                  objectFit="contain" // or 'cover' based on your design needs
+                />
+
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -173,7 +179,7 @@ const Header = () => {
                     : "invisible top-[120%] opacity-0"
                     }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block lg:flex lg:space-x-8">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
@@ -193,7 +199,7 @@ const Header = () => {
                               className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
                             >
                               {menuItem.title}
-                              <span className="pl-3">
+                              <span className="pl-2">
                                 <svg width="25" height="24" viewBox="0 0 25 24">
                                   <path
                                     fillRule="evenodd"

@@ -114,11 +114,11 @@ const index = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="border border-gray-300 p-4 bg-gray-200">Coarseness (mm)</td>
+                      <td className="border border-gray-300 p-4 bg-gray-200 dark:bg-black">Coarseness (mm)</td>
                       <td className="border border-gray-300 p-4" colSpan={5}>4mm & 6 mm</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-300 p-4 bg-gray-200">Iodine Absorb (mg/g)</td>
+                      <td className="border border-gray-300 p-4 bg-gray-200 dark:bg-black">Iodine Absorb (mg/g)</td>
                       <td className="border border-gray-300 p-4">≥700</td>
                       <td className="border border-gray-300 p-4">≥800</td>
                       <td className="border border-gray-300 p-4">≥900</td>
@@ -126,7 +126,7 @@ const index = () => {
                       <td className="border border-gray-300 p-4">≥1100</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-300 p-4 bg-gray-200">CTC</td>
+                      <td className="border border-gray-300 p-4 bg-gray-200 dark:bg-black">CTC</td>
                       <td className="border border-gray-300 p-4">≥30</td>
                       <td className="border border-gray-300 p-4">≥40</td>
                       <td className="border border-gray-300 p-4">≥50</td>
@@ -134,7 +134,7 @@ const index = () => {
                       <td className="border border-gray-300 p-4">≥90</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-300 p-4 bg-gray-200">Hardness (%)</td>
+                      <td className="border border-gray-300 p-4 bg-gray-200 dark:bg-black">Hardness (%)</td>
                       <td className="border border-gray-300 p-4">≥98</td>
                       <td className="border border-gray-300 p-4">≥98</td>
                       <td className="border border-gray-300 p-4">≥98</td>
@@ -142,7 +142,7 @@ const index = () => {
                       <td className="border border-gray-300 p-4">≥98</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-300 p-4 bg-gray-200">Moisture (%)</td>
+                      <td className="border border-gray-300 p-4 bg-gray-200 dark:bg-black">Moisture (%)</td>
                       <td className="border border-gray-300 p-4">≤3</td>
                       <td className="border border-gray-300 p-4">≤3</td>
                       <td className="border border-gray-300 p-4">≤3</td>
@@ -150,7 +150,7 @@ const index = () => {
                       <td className="border border-gray-300 p-4">≤3</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-300 p-4 bg-gray-200">Loading Density (g/l)</td>
+                      <td className="border border-gray-300 p-4 bg-gray-200 dark:bg-black">Loading Density (g/l)</td>
                       <td className="border border-gray-300 p-4">600-650</td>
                       <td className="border border-gray-300 p-4">550-600</td>
                       <td className="border border-gray-300 p-4">500-550</td>
