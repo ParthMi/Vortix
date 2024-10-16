@@ -8,11 +8,11 @@ const SharePost = ({ postTitle, postText }) => {
 
   return (
     <div>
-      <RWebShare
+     <RWebShare
         data={{
-          text: `${postText}`,
-          url: `${postUrl}`,
-          title: `${postTitle}`,
+         text: `${postText}`,
+         url: `${postUrl}`,
+        title: `${postTitle}`,
         }}
       >
         <button className="ease-in-up shadow-btn hover:shadow-btn-hover  rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90  md:px-9 lg:px-6 xl:px-9 !flex gap-2 items-center">Share <RiShare2Line size={25}/></button>
