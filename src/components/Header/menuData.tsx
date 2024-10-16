@@ -1,6 +1,6 @@
 import { Menu } from "@/types/menu";
 
-const menuData: Menu[] = [
+const menuData:any= [
   {
     id: 1,
     title: "Home",
@@ -16,6 +16,8 @@ const menuData: Menu[] = [
   {
     id: 4,
     title: "Our Products",
+    path:"/products",
+    haveSubmenu:true,
     newTab: false,
     submenu: [
       {

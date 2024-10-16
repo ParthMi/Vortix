@@ -182,7 +182,7 @@ const Header = () => {
                   <ul className="block lg:flex lg:space-x-8">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
-                        {menuItem.path ? (
+                        {!menuItem.haveSubmenu ? (
                           <Link
                             href={menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${usePathName === menuItem.path
@@ -197,8 +197,10 @@ const Header = () => {
                             <p
                               onClick={() => handleSubmenu(index)}
                               className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
-                            >
-                              {menuItem.title}
+                            > <Link
+                              href={menuItem.path}>
+                                {menuItem.title}
+                              </Link>
                               <span className="pl-2">
                                 <svg width="25" height="24" viewBox="0 0 25 24">
                                   <path

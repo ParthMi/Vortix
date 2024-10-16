@@ -17,7 +17,7 @@ const index = () => {
           <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-14 lg:pb-14">
             <div className="-mx-2 flex flex-wrap items-start">
               <div className="w-full px-4 lg:w-1/2">
-                <div className="text-base !leading-relaxed  md:text-lg">
+                <div className="text-base !leading-relaxed  md:text-base">
                   Pellets activated carbon is widely used for purification of exhaust gas, chemical raw material gas, chemical synthesis gas, gas for pharmaceutical industry, carbon dioxide gas for beverages, purification of hydrogen gas, nitrogen gas, hydrogen chloride, ethane gas, purification and separation of atomic facility exhaust, etc. There is also impregnated activated carbon, such as KOH activated carbon, NaOH activated carbon, sulfur impregnated activated carbon, desulfurization and denitrification activated carbon, acid wash activated carbon for removing special harmful gases.
                 </div>
               </div>
