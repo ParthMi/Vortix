@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React from 'react'
 
 const index = () => {
+  
   const subTypes = [
     {
       id: 1,
