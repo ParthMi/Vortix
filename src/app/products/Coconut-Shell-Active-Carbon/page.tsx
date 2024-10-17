@@ -90,8 +90,8 @@ const index = () => {
                 <div className='w-full py-4 mt-8 md:flex gap-3 justify-center'>
 
                   {
-                    subTypes.map((t) => {
-                      return <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    subTypes.map((t,i) => {
+                      return <div key={i} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#">
                           {/* <img className="rounded-t-lg" src={t.image} alt="" /> */}
                         </a>
