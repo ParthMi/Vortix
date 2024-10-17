@@ -1,4 +1,5 @@
 import Breadcrumb from '@/components/Common/Breadcrumb'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -48,11 +49,12 @@ const page = () => {
           <div className="grid grid-cols-1 pb-10 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
             {products.map((product) => (
               <Link key={product.id} href={product.href} className="group">
-                <div className="aspect-h-1 h-full aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                  <img
+                <div className="relative aspect-h-1 h-[250px] aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                  <Image
                     alt={product.imageAlt}
                     src={product.imageSrc}
-                    className="h-full w-full object-cover object-center group-hover:opacity-75"
+                    layout="fill"
+                    className="object-cover object-center group-hover:opacity-75"
                   />
                 </div>
                 <h3 className="mt-4 text-base text-black dark:text-white text-center">{product.name}</h3>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
+import Image from "next/image";
 
 const Features = () => {
   const products = [
@@ -53,11 +54,12 @@ const Features = () => {
     <div 
       data-aos="fade-up"
       data-aos-delay={`${index * 100}`}  // Stagger animation delay (100ms between each)
-      className="aspect-h-1 h-full aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
+      className="aspect-h-1 h-[250px] aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7"
     >
-      <img
+      <Image
         alt={product.imageAlt}
         src={product.imageSrc}
+        fill
         className="h-full w-full object-cover object-center group-hover:opacity-75"
       />
     </div>
