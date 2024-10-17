@@ -1,5 +1,6 @@
 import Breadcrumb from '@/components/Common/Breadcrumb'
 import Link from 'next/link';
+import Image from 'next/image'
 import React from 'react'
 
 const index = () => {
@@ -8,14 +9,14 @@ const index = () => {
       id: 1,
       title: "Coconut Shell Granular Activated Carbon",
       description: "Coconut shell granular activated carbon, made of high quality coconut shell, is a kind of broken carbon with irregular grain...",
-      image: "/docs/images/blog/image-1.jpg",
+      image: "/images/coconut/picture1.jpg",
       link: "#"
     },
     {
       id: 2,
       title: "Coconut Shell Powdered Activated Carbon",
       description: "This product made of natural high-quality coconut shell as raw material, using advanced equipment and scientific...",
-      image: "/docs/images/blog/image-1.jpg",
+      image: "/images/coconut/pic1.jpeg",
       link: "#"
     }
   ];
@@ -33,18 +34,18 @@ const index = () => {
               <div className="-mx-2 flex flex-wrap items-start">
                 <div className="w-full px-4 lg:w-1/2 mt-4 md:mt-0">
                   <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                    {/* <Image
-                    src="/images/products/pellets-activated-carbon.jpg"
+                  <Image
+                    src="/images/products/coconut/pic3.jpg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full rounded-md object-cover drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                  />
+                  ></Image>
                   <Image
-                    src="/images/products/pellets-activated-carbon.jpg"
+                    src="/images/products/coconut/pic3.jpg"
                     alt="about-image"
                     fill
                     className="mx-auto hidden max-w-full rounded-md object-cover drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                  /> */}
+                  /> 
                   </div>
                 </div>
                 <div className="w-full px-4 lg:w-1/2">

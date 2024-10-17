@@ -77,7 +77,7 @@ const blogData: any = [
     ],
     "images": [
       {
-        "url": "https://example.com/images/activated_carbon_overview.jpg",
+        "url": "/images/blog/post-01.jpg",
         "alt": "Activated Carbon Overview"
       }
     ],
@@ -400,7 +400,7 @@ const blogData: any = [
   ],
   "images": [
     {
-      "url": "https://example.com/images/activated_carbon_comparison.jpg",
+      "url": "images/products/pellets-activated-carbon.jpg",
       "alt": "Comparison of Different Types of Activated Carbon"
     }
   ],
