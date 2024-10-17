@@ -1,4 +1,5 @@
 import Breadcrumb from '@/components/Common/Breadcrumb'
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -19,6 +20,18 @@ const index = () => {
       link: "#"
     }
   ];
+
+  const images=[
+    "/images/products/coal/1.jpg",
+    "/images/products/coal/2.jpg",
+    "/images/products/coal/3.jpg",
+    "/images/products/coal/4.jpg",
+    "/images/products/coal/a1.jpg",
+    "/images/products/coal/a2.jpg",
+    "/images/products/coal/a3.jpg",
+    "/images/products/coal/a4.jpg",
+  ]
+
   return (
     <>
       <Breadcrumb
@@ -43,23 +56,43 @@ const index = () => {
 
               <div className="w-full px-4 lg:w-1/2 mt-4 md:mt-0">
                 <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                  {/* <Image
-                    src="/images/products/pellets-activated-carbon.jpg"
+                  <Image
+                    src="/images/products/coal/g1.jpg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full rounded-md object-cover drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                   />
                   <Image
-                    src="/images/products/pellets-activated-carbon.jpg"
+                    src="/images/products/coal/g1.jpg"
                     alt="about-image"
                     fill
                     className="mx-auto hidden max-w-full rounded-md object-cover drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                  /> */}
+                  />
                 </div>
               </div>
-              <p>
+              <p className='my-4'>
                 Coal Activated Carbon is used in specific fields of Application that require lower cost, high availability and to be used in higher concentrations. Here at Kalpaka we strive to deliver Coal based Activated Carbon that possesses lower impurity level and lesser ash content. Coal Activated Carbon is used mainly in Industrial Gas purification, potable water treatment, pond water purification and in waste water treatment.
               </p>
+              <div className='mb-4 py-8 flex justify-center w-full'>
+
+
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {images.map((img,index)=> (
+                    <div  key={index}>
+                      <Image
+                        className="h-[250px] object-cover max-w-full rounded-lg"
+                        src={img}
+                        alt={`Coconut image ${index + 1}`}
+                        width={250} // Set an appropriate width
+                        height={250} // Set an appropriate height
+                      />
+                    </div>
+                    )
+                    )}
+                  </div>
+
+
+                </div>
               <div className='w-full py-4 mt-8 md:flex gap-3 justify-center'>
 
                 {

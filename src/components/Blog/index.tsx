@@ -4,7 +4,7 @@ import SingleBlog from "./SingleBlog";
 import blogData from "./blogData";
 import Link from "next/link";
 
-const Blog = () => {
+const Blog = ({ fromHome }) => {
   return (
     <section
       id="blog"
@@ -18,11 +18,19 @@ const Blog = () => {
         />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
-          {blogData.map((blog) => (
-            <div key={blog.id} className="w-full">
-              <SingleBlog blog={blog} />
-            </div>
-          ))}
+          {fromHome ?
+            (blogData.slice(0, 3).map((blog) => (
+              <div key={blog.id} className="w-full">
+                <SingleBlog blog={blog} />
+              </div>
+            )))
+            :
+            (blogData.map((blog) => (
+              <div key={blog.id} className="w-full">
+                <SingleBlog blog={blog} />
+              </div>
+            )))
+          }
         </div>
       </div>
       <div className="flex justify-center mt-4 mb-[-15px]">

@@ -20,6 +20,17 @@ const index = () => {
       link: "#"
     }
   ];
+
+  const images=[
+    "/images/products/coconut/1.jpg",
+    "/images/products/coconut/2.jpg",
+    "/images/products/coconut/3.jpg",
+    "/images/products/coconut/4.jpg",
+    "/images/products/coconut/5.jpg",
+    "/images/products/coconut/6.jpg",
+    "/images/products/coconut/7.jpg",
+    "/images/products/coconut/8.jpg",
+  ]
   return (
     <div>
       <>
@@ -34,18 +45,18 @@ const index = () => {
               <div className="-mx-2 flex flex-wrap items-start">
                 <div className="w-full px-4 lg:w-1/2 mt-4 md:mt-0">
                   <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                  <Image
-                    src="/images/products/coconut/pic3.jpg"
-                    alt="about-image"
-                    fill
-                    className="mx-auto max-w-full rounded-md object-cover drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                  ></Image>
-                  <Image
-                    src="/images/products/coconut/pic3.jpg"
-                    alt="about-image"
-                    fill
-                    className="mx-auto hidden max-w-full rounded-md object-cover drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                  /> 
+                    <Image
+                      src="/images/products/coconut/pic3.jpg"
+                      alt="about-image"
+                      fill
+                      className="mx-auto max-w-full rounded-md object-cover drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                    ></Image>
+                    <Image
+                      src="/images/products/coconut/pic3.jpg"
+                      alt="about-image"
+                      fill
+                      className="mx-auto hidden max-w-full rounded-md object-cover drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                    />
                   </div>
                 </div>
                 <div className="w-full px-4 lg:w-1/2">
@@ -53,8 +64,28 @@ const index = () => {
                     Coconut shell activated carbon, made from coconut husk, is a vapor-activated material. As this carbon contains no chemical agent, when utilized on a medium, it won’t contaminate or respond with it. It’s anything but an absolutely normal and harmless to the ecosystem item, that has a little carbon impression and can efficiently absorb impurities with micro-pore molecular structure, for example, those present in drinking water. Coconut shell activated carbon, owing to its high abrasion resistance and unique physical and chemical characteristics, can safely support applications such as the recovery of gold and other precious metals.
                   </div>
                 </div>
-                <div className=''>
+                <div className='my-4  px-4'>
                   We are one of the leading Coconut Activated Carbon Manufacturers in India, with a manufacturing capacity of 51 metric tons per day, resulting in 18,600 metric tons per year. Our Coconut Shell Activated Carbon is useful in purification & treatment of water, gas, air, gold and many other products through adsorption.
+                </div>
+                <div className='mb-4 py-8 flex justify-center w-full'>
+
+
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {images.map((img,index)=> (
+                    <div  key={index}>
+                      <Image
+                        className="h-auto max-w-full rounded-lg"
+                        src={img}
+                        alt={`Coconut image ${index + 1}`}
+                        width={250} // Set an appropriate width
+                        height={250} // Set an appropriate height
+                      />
+                    </div>
+                    )
+                    )}
+                  </div>
+
+
                 </div>
                 <div className='w-full py-4 mt-8 md:flex gap-3 justify-center'>
 

@@ -1,4 +1,5 @@
 import Breadcrumb from '@/components/Common/Breadcrumb'
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -19,6 +20,18 @@ const index = () => {
       link: "#"
     }
   ];
+  
+  const images=[
+    "/images/products/wood/1.jpg",
+    "/images/products/wood/2.jpg",
+    "/images/products/wood/3.jpg",
+    "/images/products/wood/4.jpg",
+    "/images/products/wood/a1.jpg",
+    "/images/products/wood/a2.jpg",
+    "/images/products/wood/a3.jpg",
+    "/images/products/wood/a4.jpg",
+  ]
+
   return (
     <>
       <Breadcrumb
@@ -32,32 +45,52 @@ const index = () => {
             <div className="-mx-2 flex flex-wrap items-start">
               <div className="w-full px-4 lg:w-1/2 mt-4 md:mt-0">
                 <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                  {/* <Image
-                    src="/images/products/pellets-activated-carbon.jpg"
+                  <Image
+                    src="/images/products/wood/Wood-Activated-Carbon.webp"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full rounded-md object-cover drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                   />
                   <Image
-                    src="/images/products/pellets-activated-carbon.jpg"
+                    src="/images/products/wood/Wood-Activated-Carbon.webp"
                     alt="about-image"
                     fill
                     className="mx-auto hidden max-w-full rounded-md object-cover drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                  /> */}
+                  />
                 </div>
               </div>
               <div className="w-full px-4 lg:w-1/2">
                 <div className="text-base !leading-relaxed  md:text-base">
                   <p>
-                  Wood Activated carbon is considered as one of those adsorbent Activated Carbon that has the highest purity index, since it is derived from selected grade of wood that is subjected to controlled Carbonization and Activation Processes. This characteristic property of Wood Activated Carbon makes it a best suited adsorbent that is widely used in Water Filtration Systems, since it does not release any harmful substances into the potable water and also used in the Food and Beverage Industry for purification and deodorization of ingredients.                  </p><br></br>
+                    Wood Activated carbon is considered as one of those adsorbent Activated Carbon that has the highest purity index, since it is derived from selected grade of wood that is subjected to controlled Carbonization and Activation Processes. This characteristic property of Wood Activated Carbon makes it a best suited adsorbent that is widely used in Water Filtration Systems, since it does not release any harmful substances into the potable water and also used in the Food and Beverage Industry for purification and deodorization of ingredients.                  </p><br></br>
                   <p>
-                  Wood Activated Carbon has always been associated with higher surface area and pore volume, enhancing the efficiency of the filtration process by assuring the purity standards of water and simultaneously reducing the filtration time. With abundantly large pores combined with the ability to maintain the non-toxic standards, it finds its application as adsorbent in filtration units of pharmaceutical and Synthetic chemical industries.
+                    Wood Activated Carbon has always been associated with higher surface area and pore volume, enhancing the efficiency of the filtration process by assuring the purity standards of water and simultaneously reducing the filtration time. With abundantly large pores combined with the ability to maintain the non-toxic standards, it finds its application as adsorbent in filtration units of pharmaceutical and Synthetic chemical industries.
                   </p>
                 </div>
               </div>
-              <p className='mt-3'>
-              Wood Activated Carbon to a larger extent, owing to its meso and macropore structure is unable to remove many finer contaminants, however it can be used in certain specific contaminant removal. Another important feature of Wood based Activated Carbon is that, being obtained from a renewable source, it has lower carbon impact.
+              <p className='my-4'>
+                Wood Activated Carbon to a larger extent, owing to its meso and macropore structure is unable to remove many finer contaminants, however it can be used in certain specific contaminant removal. Another important feature of Wood based Activated Carbon is that, being obtained from a renewable source, it has lower carbon impact.
               </p>
+             <div className='mb-4 py-8 flex justify-center w-full'>
+
+
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {images.map((img,index)=> (
+                    <div  key={index}>
+                      <Image
+                        className="h-[250px] object-cover max-w-full rounded-lg"
+                        src={img}
+                        alt={`Coconut image ${index + 1}`}
+                        width={250} // Set an appropriate width
+                        height={250} // Set an appropriate height
+                      />
+                    </div>
+                    )
+                    )}
+                  </div>
+
+
+                </div>
               <div className='w-full py-4 mt-8 md:flex gap-3 justify-center'>
 
                 {

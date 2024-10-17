@@ -240,9 +240,9 @@ const Header = () => {
                 >
                   Enquire Now
                 </Link>
-                <div>
+                {/* <div>
                   <ThemeToggler />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

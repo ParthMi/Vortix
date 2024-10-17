@@ -27,7 +27,7 @@ export default function Home() {
       {/* <AboutSectionOne />
       <AboutSectionTwo /> */}
       <Applications />
-      <Blog />
+      <Blog fromHome={true}/>
       <Contact />
     </>
   );

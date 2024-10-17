@@ -145,7 +145,7 @@ const blogData: any = [
     ],
     "images": [
       {
-        "url": "https://example.com/images/powdered_activated_carbon.jpg",
+        "url": "/images/blog/post-02.jpg",
         "alt": "Powdered Activated Carbon"
       }
     ],
@@ -197,7 +197,7 @@ const blogData: any = [
     ],
     "images": [
       {
-        "url": "https://example.com/images/backwashing_procedure.jpg",
+        "url": "/images/blog/post-03.jpg",
         "alt": "Backwashing of Industrial Media Filters"
       }
     ],
@@ -265,7 +265,7 @@ const blogData: any = [
   ],
   "images": [
     {
-      "url": "https://example.com/images/coal_vs_coconut_vs_wood_activated_carbon.jpg",
+      "url": "/images/blog/post-04.jpg",
       "alt": "Comparative Study of Activated Carbons"
     }
   ],
@@ -332,7 +332,7 @@ const blogData: any = [
   ],
   "images": [
     {
-      "url": "https://example.com/images/activated_carbon_filtration.jpg",
+      "url": "/images/blog/post-05.jpg",
       "alt": "Activated Carbon Filtration Process"
     }
   ],
@@ -400,7 +400,7 @@ const blogData: any = [
   ],
   "images": [
     {
-      "url": "images/products/pellets-activated-carbon.jpg",
+      "url": "/images/blog/post-06.jpg",
       "alt": "Comparison of Different Types of Activated Carbon"
     }
   ],
