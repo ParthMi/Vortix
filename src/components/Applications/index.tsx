@@ -1,54 +1,10 @@
+import Link from "next/link";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
+import applicationData from './appdata';
+import { FaArrowRight } from "react-icons/fa";
 
-const applicationData: any = [
-  {
-    id: 1,
-    name: "Air & Gas Treatment",
-    image: "https://kalimaticarbon.com/images/menu/1720425793_Mercury-Flue-Gas%20(1).jpg",
-  },
-  {
-    id: 2,
-    name: "Water Filter Cartridges",
-    image: "https://kalimaticarbon.com/images/menu/1720425793_Mercury-Flue-Gas%20(1).jpg",
-  },
-  {
-    id: 3,
-    name: "Pharmaceuticals",
-    image: "https://kalimaticarbon.com/images/menu/1720425793_Mercury-Flue-Gas%20(1).jpg",
-  },
-  {
-    id: 4,
-    name: "Gold Recovery",
-    image: "https://kalimaticarbon.com/images/menu/1720425793_Mercury-Flue-Gas%20(1).jpg",
-  }, {
-    id: 5,
-    name: "Food & Beverages",
-    image: "https://kalimaticarbon.com/images/menu/1720425793_Mercury-Flue-Gas%20(1).jpg",
-  },
-  {
-    id: 6,
-    name: "Automotive",
-    image: "https://kalimaticarbon.com/images/menu/1720425793_Mercury-Flue-Gas%20(1).jpg",
-  },
-  {
-    id: 7,
-    name: "Mercury Flue Gas",
-    image: "https://kalimaticarbon.com/images/menu/1720425793_Mercury-Flue-Gas%20(1).jpg",
-  },
-  {
-    id: 8,
-    name: "Petrochemical catalyst",
-    image: "https://kalimaticarbon.com/images/menu/1720425793_Mercury-Flue-Gas%20(1).jpg",
-  },
-  {
-    id: 9,
-    name: "Soil Remediation",
-    image: "https://kalimaticarbon.com/images/menu/1720425793_Mercury-Flue-Gas%20(1).jpg",
-  },
-];
-
-const Applications = () => {
+const Applications = ({ homepage = false }) => {
   return (
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-2 md:py-4 lg:py-8">
       <div className="container mt-2">
@@ -57,12 +13,32 @@ const Applications = () => {
           paragraph=""
           center
         />
-
-        <div className="grid grid-cols-1 gap-x-8 gap-y-4 md:grid-cols-2 lg:grid-cols-4">
-          {applicationData.map((application) => (
-            <SingleTestimonial key={application.id} application={application} />
-          ))}
+        <div className="flex justify-center w-full">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-4 md:grid-cols-2 lg:grid-cols-4">
+            {homepage ?
+              (applicationData.slice(0, 8).map((application, index) => (
+                <div
+                  key={application.id}
+                  data-aos="fade-up" // Add AOS animation
+                  data-aos-delay={`${index * 100}`} // Optional: stagger the animations
+                >
+                  <SingleTestimonial application={application} />
+                </div>
+              )))
+              :
+              (applicationData.map((application, index) => (
+                <div
+                  key={application.id}
+                  data-aos="fade-up" // Add AOS animation
+                  data-aos-delay={`${index * 100}`} // Optional: stagger the animations
+                >
+                  <SingleTestimonial application={application} />
+                </div>
+              )))
+            }
+          </div>
         </div>
+
       </div>
       <div className="absolute right-0 top-5 z-[-1]">
         <svg
@@ -191,6 +167,14 @@ const Applications = () => {
             </linearGradient>
           </defs>
         </svg>
+      </div>
+      <div className="flex justify-center mt-6 mb-[-15px]">
+        <Link
+          href="/applications"
+          className="ease-in-up shadow-btn hover:shadow-btn-hover  rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90  md:px-9 lg:px-6 xl:px-9 !flex gap-2 items-center"
+        >
+          <span>View More</span> <span><FaArrowRight /></span>
+        </Link>
       </div>
     </section>
   );

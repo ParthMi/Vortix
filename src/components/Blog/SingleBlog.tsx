@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleBlog = ({ blog }: { blog: any }) => {
-  console.log(blog.images[0].url)
+
   const { title, image, paragraph, author, tags, publishDate, id } = blog;
   return (
     <>

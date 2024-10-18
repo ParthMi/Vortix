@@ -8,6 +8,7 @@ import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 import "aos/dist/aos.css"; // Import AOS styles
 import AOS from "aos";
+import { ImWhatsapp } from "react-icons/im";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,11 +37,21 @@ export default function RootLayout({
           {children}
           <Footer />
           <ScrollToTop />
+          <div className="fixed bottom-4 right-4 z-50">
+            <a
+              href="https://wa.me/+919510595121" // Replace with your WhatsApp link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-12 h-12 bg-green-600 text-white rounded-full shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <ImWhatsapp size={28} />
+            </a>
+          </div>
         </Providers>
       </body>
     </html>
   );
 }
 
-import { Providers } from "./providers";import { useEffect } from "react";
+import { Providers } from "./providers"; import { useEffect } from "react";
 
