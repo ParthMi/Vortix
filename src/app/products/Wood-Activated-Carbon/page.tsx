@@ -26,11 +26,7 @@ const index = () => {
     "/images/products/wood/1.jpg",
     "/images/products/wood/2.jpg",
     "/images/products/wood/3.jpg",
-    "/images/products/wood/4.jpg",
-    "/images/products/wood/a1.jpg",
-    "/images/products/wood/a2.jpg",
-    "/images/products/wood/a3.jpg",
-    "/images/products/wood/a4.jpg",
+    "/images/products/wood/4.jpg"
   ]
 
   return (

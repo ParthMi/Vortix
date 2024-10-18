@@ -25,11 +25,7 @@ const index = () => {
     "/images/products/coal/1.jpg",
     "/images/products/coal/2.jpg",
     "/images/products/coal/3.jpg",
-    "/images/products/coal/4.jpg",
-    "/images/products/coal/a1.jpg",
-    "/images/products/coal/a2.jpg",
-    "/images/products/coal/a3.jpg",
-    "/images/products/coal/a4.jpg",
+    "/images/products/coal/4.jpg"
   ]
 
   return (

@@ -344,74 +344,56 @@ const blogData: any = [
   ]
 },
 {
-  "id": 6,
-  "title": "Coal (vs) Coconut (vs) Wood Activated Carbon",
+  "id": 7,
+  "title": "Activated Carbon as Deodorant",
   "author": "Your Name",
-  "date": "2024-10-16",
-  "categories": ["Water Treatment", "Filtration", "Activated Carbon"],
-  "tags": ["Coconut Activated Carbon", "Coal Activated Carbon", "Wood Activated Carbon", "Water Filtration", "Comparative Study"],
-  "summary": "A technical comparison of coconut shell, coal, and wood activated carbon, analyzing their characteristics and applications in water and wastewater treatment.",
+  "date": "2024-10-18",
+  "categories": ["Odor Control", "Activated Carbon", "Deodorants"],
+  "tags": ["Activated Carbon", "Adsorption", "Odor Removal", "Deodorant", "Kalpaka Chemicals"],
+  "summary": "Activated carbon is widely used as a deodorant due to its ability to adsorb odor-causing chemicals. Its porous structure traps these compounds, making it effective for odor control in various environments.",
   "content": [
     {
       "sectionTitle": "Introduction",
       "paragraphs": [
-        "In water treatment applications, all three varieties of activated carbon—Coconut Shell, Coal, and Wood—are used based on the nature of potable water and wastewater treatment. Here's a comparative study of these different types of carbon based on their specifications."
+        "Activated carbon, also known as activated charcoal, is processed to become highly porous, providing a large surface area for adsorption. It is commonly used in deodorants and filters for odor control."
       ]
     },
     {
-      "sectionTitle": "Comparative Study of Activated Carbons",
-      "table": {
-        "headers": ["SR NO", "CHARACTER", "COCONUT SHELL ACTIVATED CARBON", "COAL ACTIVATED CARBON", "WOOD ACTIVATED CARBON"],
-        "rows": [
-          ["1", "DENSITY", "0.48 TO 0.58 GM/CC (VERY HIGH)", "0.38 TO 0.48 GM/CC (HIGH)", "0.25 TO 0.30 GM/CC (LOW)"],
-          ["2", "HARDNESS", "98 % MIN (VERY HIGH)", "90 – 95 % (HIGH)", "85% MIN (LOW)"],
-          ["3", "ASH", "VERY LOW – 3 % MAX", "HIGH – 10 % MAX", "VERY HIGH – 15 % MAX"],
-          ["4", "POROSITY", "MORE MICROPORES", "MORE MESOPORES & LESS MICROPORES", "MORE MESOPORES & MACROPORES"],
-          ["5", "WETTABILITY", "VERY HIGH", "NORMAL", "LOW"],
-          ["6", "HEAVY METALS", "NOT TRACEABLE", "PRESENT", "LOW"],
-          ["7", "BACK WASHING", "NEGLIGIBLE LOSS OF MATERIAL", "LOW LOSS OF MATERIAL", "–"],
-          ["8", "OPERATION COST", "LOW", "NORMAL", "HIGH"],
-          ["9", "AVAILABILITY", "RENEWABLE SOURCE (AGRICULTURAL BYPRODUCT)", "FOSSIL (LIMITED AVAILABILITY)", "RENEWABLE BUT DEPLETING"],
-          ["10", "BEST SUITABLE FOR", "DECHLORINATION", "ODOUR REMOVAL", "DECOLORIZATION IN POWDER FORM"],
-          ["11", "APPLICATION (MESH WISE)", "WATER TREATMENT", "EFFLUENT TREATMENT", "ETP"],
-          ["12", "WATERTREATMENT BLOCKS", "35 X 70, 80 X 325", "8 X 30, 12 X 40, MINUS 325", "MINUS 200"]
-        ]
-      }
-    },
-    {
-      "sectionTitle": "Choosing the Best Solution",
+      "sectionTitle": "What is Odor?",
       "paragraphs": [
-        "Porosity plays a vital role in selecting the right type of carbon. Coconut activated carbon contains many micropores, making it suitable for filtering impurities smaller than 100 angstroms. Coal activated carbon contains mesopores and micropores, ideal for impurities between 100 and 1000 angstroms. Wood activated carbon, with mesopores and macropores, is best for impurities larger than 1000 angstroms."
+        "Odor refers to the nose's detection of chemicals in the air. Prolonged exposure can lead to odor fatigue, where the nose becomes desensitized to the smell, even if the odor-causing compounds are still present."
       ]
     },
     {
-      "sectionTitle": "Applications of Activated Carbon",
+      "sectionTitle": "How Activated Carbon Removes Odor",
       "paragraphs": [
-        "Wood activated carbon is best suited for decolorization in powder form. Coal activated carbon is primarily used for odor removal in effluent and wastewater treatment. Coconut activated carbon is preferred for dechlorination, making it ideal for drinking water and reverse osmosis (RO) systems.",
-        "Although coconut activated carbon is slightly more expensive, its high density, negligible loss during backwashing, and low operational costs make it cost-effective over time. As a renewable source, it is especially suitable for drinking water applications."
+        "Activated carbon works through adsorption, trapping odor-causing chemicals within its pores. This process is different from absorption, where materials physically change in size. Activated carbon remains unchanged but gains weight as it adsorbs chemicals."
       ]
     },
     {
-      "sectionTitle": "Conclusion",
+      "sectionTitle": "Filter Quality",
       "paragraphs": [
-        "Choosing the right type of activated carbon depends on your specific application and cost considerations. Professional guidance can help ensure you select the most suitable product for your water treatment needs."
+        "The quality and quantity of activated carbon in a filter determine its odor removal capacity. Kalpaka Chemicals provides high-quality activated carbon solutions with optimal performance for various applications."
       ]
     }
   ],
   "images": [
     {
       "url": "/images/blog/post-06.jpg",
-      "alt": "Comparison of Different Types of Activated Carbon"
+      "alt": "Activated Carbon Deodorant Filter"
     }
   ],
   "references": [
     {
-      "title": "Technical Guide on Activated Carbon Types",
-      "url": "https://example.com/reference-activated-carbon"
+      "title": "Activated Carbon as Deodorant",
+      "url": "https://www.kalpakachemicals.com/blog/activated-carbon-deodorant/"
     }
   ]
 }
 
 
+
+
 ];
+
 export default blogData;
