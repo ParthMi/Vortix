@@ -8,7 +8,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog Details Page | Vortix Enterprise",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  description: "Blog Details | Vortix Enterprise",
   // other metadata
 };
 
@@ -237,7 +237,7 @@ const BlogSidebarPage = () => {
                           cx="37.5"
                           cy="37.5"
                           r="37.5"
-                          fill="#4A6CF7"
+                          fill="#006AA7"
                         />
                         <mask
                           id="mask0_111:596"
@@ -253,7 +253,7 @@ const BlogSidebarPage = () => {
                             cx="37.5"
                             cy="37.5"
                             r="37.5"
-                            fill="#4A6CF7"
+                            fill="#006AA7"
                           />
                         </mask>
                         <g mask="url(#mask0_111:596)">

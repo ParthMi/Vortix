@@ -77,8 +77,8 @@ const Applications = ({ homepage = false }) => {
               y2="459.865"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#006AA7" />
+              <stop offset="1" stopColor="#006AA7" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_83:2"
@@ -88,8 +88,8 @@ const Applications = ({ homepage = false }) => {
               y2="675.565"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#006AA7" />
+              <stop offset="1" stopColor="#006AA7" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -129,8 +129,8 @@ const Applications = ({ homepage = false }) => {
               y2="8.15715"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#006AA7" stopOpacity="0" />
+              <stop offset="1" stopColor="#006AA7" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_72:302"
@@ -140,8 +140,8 @@ const Applications = ({ homepage = false }) => {
               y2="-2.84285"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#006AA7" stopOpacity="0" />
+              <stop offset="1" stopColor="#006AA7" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_72:302"
@@ -151,8 +151,8 @@ const Applications = ({ homepage = false }) => {
               y2="19.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#006AA7" stopOpacity="0" />
+              <stop offset="1" stopColor="#006AA7" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_72:302"
@@ -162,8 +162,8 @@ const Applications = ({ homepage = false }) => {
               y2="31.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#006AA7" stopOpacity="0" />
+              <stop offset="1" stopColor="#006AA7" />
             </linearGradient>
           </defs>
         </svg>
@@ -171,7 +171,7 @@ const Applications = ({ homepage = false }) => {
       <div className="flex justify-center mt-6 mb-[-15px]">
         <Link
           href="/applications"
-          className="ease-in-up shadow-btn hover:shadow-btn-hover  rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90  md:px-9 lg:px-6 xl:px-9 !flex gap-2 items-center"
+          className="ease-in-up shadow-btn hover:shadow-btn-hover  rounded-sm bg-orange px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90  md:px-9 lg:px-6 xl:px-9 !flex gap-2 items-center"
         >
           <span>View More</span> <span><FaArrowRight /></span>
         </Link>

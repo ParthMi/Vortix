@@ -2,7 +2,13 @@ import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
+    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28" style={{
+      backgroundImage: 'url("/images/contact/black-coal.jpg")',
+      backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed',
+      backgroundSize: "cover",
+    backgroundPosition: "center",
+    }}>
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -81,7 +87,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4 flex justify-center">
-                    <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                    <button className="rounded-sm bg-orange px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
                       Submit
                     </button>
                   </div>

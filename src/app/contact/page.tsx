@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Page | Vortix Enterprise",
-  description: "This is Contact Page for Startup Nextjs Template",
+  description: "Contact Page | Vortix Enterprise",
   // other metadata
 };
 

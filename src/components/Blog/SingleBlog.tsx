@@ -18,7 +18,7 @@ const SingleBlog = ({ blog }: { blog: any }) => {
           <h4>
             <Link
               href={`/blog/${id}`}
-              className="mb-4 block text-md font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-xl"
+              className="mb-4 block text-md font-bold text-black hover:text-orange dark:text-white dark:hover:text-primary sm:text-xl"
             >
               {title}
             </Link>
@@ -27,7 +27,7 @@ const SingleBlog = ({ blog }: { blog: any }) => {
             <div className="inline-block">
             <Link
               href={`/blog/${id}`}>
-              <h4 className="text-sm font-medium text-primary underline">
+              <h4 className="text-sm font-medium text-orange underline">
                 Read More
               </h4>
               </Link>

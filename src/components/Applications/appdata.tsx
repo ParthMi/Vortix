@@ -5,12 +5,12 @@ const appdata: any = [
     "title": "Air & Gas Treatment",
     "categories": ["Industrial Applications", "Air Treatment", "Gas Treatment", "VOC Removal"],
     "tags": ["Activated Carbon", "VOC Removal", "Air Emissions", "Gas Purification", "Industrial Catalysts"],
-    "summary": "Kalimati Carbon provides activated carbon solutions for air and gas treatment, including VOC removal, gas purification, and compliance with air emission regulations across various industries.",
+    "summary": "Vortix Enterprise provides activated carbon solutions for air and gas treatment, including VOC removal, gas purification, and compliance with air emission regulations across various industries.",
     "content": [
       {
         "sectionTitle": "Air Purification - VOC Removal",
         "paragraphs": [
-          "Activated carbon is used for VOC removal in air emissions. Kalimati Carbon offers VayuSorb™ coal-based and coconut shell-based grades for various industries."
+          "Activated carbon is used for VOC removal in air emissions. Vortix Enterprise offers VayuSorb™ coal-based and coconut shell-based grades for various industries."
         ]
       },
       {
@@ -70,7 +70,7 @@ const appdata: any = [
     "title": "Pharmaceuticals",
     "categories": ["Pharmaceutical Applications", "Activated Carbon"],
     "tags": ["Pharmaceutical Grade Activated Carbon", "Purification", "Pharmacopoeia Carbons", "Color Removal", "Organic Impurities"],
-    "summary": "Kalimati Carbon manufactures high-quality activated carbon products used in the pharmaceutical industry for purification processes, including the removal of colors, odors, proteins, and contaminants in raw materials and final products. Their products meet IP, USP, and BP standards and are used globally.",
+    "summary": "Vortix Enterprise manufactures high-quality activated carbon products used in the pharmaceutical industry for purification processes, including the removal of colors, odors, proteins, and contaminants in raw materials and final products. Their products meet IP, USP, and BP standards and are used globally.",
     "content": [
       {
         "sectionTitle": "Pharmacopoeia Carbons for Humans",
@@ -252,14 +252,14 @@ const appdata: any = [
         "sectionTitle": "Mercury Removal",
         "paragraphs": [
           "Mercury emissions from coal-fired generators, cement kilns, industrial boilers, waste incinerators, and steel mills pose serious environmental concerns.",
-          "Regulatory agencies worldwide are introducing stricter regulations to limit mercury emissions. Activated carbon, specifically the PARASORB™ brand from Kalimati Carbon, achieves a removal efficiency of 98%."
+          "Regulatory agencies worldwide are introducing stricter regulations to limit mercury emissions. Activated carbon, specifically the PARASORB™ brand from Vortix Enterprise, achieves a removal efficiency of 98%."
         ]
       },
       {
         "sectionTitle": "Personal Protective Equipment",
         "paragraphs": [
           "Activated carbon has excellent adsorption characteristics for toxic gases, making it essential for personal protective equipment.",
-          "Kalimati Carbon manufactures coconut shell-activated carbon for various applications, including military use, with in-house impregnation for special removal applications."
+          "Vortix Enterprise manufactures coconut shell-activated carbon for various applications, including military use, with in-house impregnation for special removal applications."
         ]
       },
       {
@@ -326,9 +326,9 @@ const appdata: any = [
         ]
       },
       {
-        "sectionTitle": "Kalimati Carbon Offerings",
+        "sectionTitle": "Vortix Enterprise Offerings",
         "paragraphs": [
-          "Kalimati Carbon provides a diverse range of Granular, Powdered, or Extruded activated carbon specifically for petrochemical applications.",
+          "Vortix Enterprise provides a diverse range of Granular, Powdered, or Extruded activated carbon specifically for petrochemical applications.",
           "The company is recognized as an approved vendor by leading global petrochemical companies."
         ]
       }
