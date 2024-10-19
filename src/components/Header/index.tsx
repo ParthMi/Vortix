@@ -125,7 +125,7 @@ const Header = () => {
                 </svg>
               </a>
               <a
-                href="/"
+                href="https://www.linkedin.com/in/vortix-enterprise-016a26333/"
                 aria-label="social-link"
                 target="_blank"
                 rel="noopener noreferrer"
