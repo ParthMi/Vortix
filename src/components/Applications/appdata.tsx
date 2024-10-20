@@ -38,24 +38,24 @@ const appdata: any = [
     "title": "Water Filter Cartridges",
     "categories": ["Water Purification", "Home Filtration", "Activated Carbon Filters"],
     "tags": ["Activated Carbon", "POU Filters", "POE Filters", "Water Filtration"],
-    "summary": "Activated carbon filters are used in home water purification systems to remove taste, odor, organic compounds, chlorine, and some metals. vortix enterprise's NeerSorb™ C series offers various grades for chlorine reduction, chloramine removal, and bacteriostatic properties.",
+    "summary": "At Vortix Enterprise, we provide activated carbon filters commonly used in home water purification systems to remove taste, odor, organic compounds, chlorine, and some metals. Various grades are available for chlorine reduction, chloramine removal, and bacteriostatic properties.",
     "content": [
       {
         "sectionTitle": "Point of Use (POU) Filters",
         "paragraphs": [
-          "POU filters are typically installed to treat water used for drinking and cooking. These filters come in different formats such as faucet, countertop, or under-sink systems. vortix enterprise offers specialized products like catalytic grades for chloramine removal and silver-impregnated grades for bacteriostatic properties."
+          "POU filters, available through Vortix Enterprise, are typically installed to treat water used for drinking and cooking. These filters come in different formats such as faucet, countertop, or under-sink systems. Specialized products include catalytic grades for chloramine removal and silver-impregnated grades for bacteriostatic properties."
         ]
       },
       {
         "sectionTitle": "Point of Entry (POE) Filters",
         "paragraphs": [
-          "POE systems are designed to treat all water entering a home. AC filters in these systems contain either granular or powdered block activated carbon. Block carbon filters are more effective in removing chlorine and organic compounds compared to granular activated carbon."
+          "Vortix Enterprise offers POE systems designed to treat all water entering a home. Filters in these systems contain either granular or powdered block activated carbon. Block carbon filters are generally more effective in removing chlorine and organic compounds compared to granular activated carbon."
         ]
       },
       {
         "sectionTitle": "Filter Performance",
         "paragraphs": [
-          "The amount of activated carbon, particle size, and flow rate of water through the filter all influence the efficiency of pollutant removal. Sediment filters may be used to prevent clogging of AC filters, but they must be replaced when clogged to avoid reduced water pressure."
+          "At Vortix Enterprise, we understand that the amount of activated carbon, particle size, and water flow rate through the filter all influence the efficiency of pollutant removal. Sediment filters may be used to prevent clogging of activated carbon filters, but they must be replaced when clogged to avoid reduced water pressure."
         ]
       }
     ],
@@ -166,7 +166,7 @@ const appdata: any = [
     "title": "Food & Beverages",
     "categories": ["Food Applications", "Beverage Applications"],
     "tags": ["Activated Carbon", "Purification", "Taste Removal", "Odor Removal", "Color Removal"],
-    "summary": "Activated carbon effectively removes unwanted tastes, colors, and impurities in food and beverage production, ensuring high purity and safety. vortix enterprise's VarnaSorb™, CaneSorb™, and Purifo™ products are ideal for these applications.",
+    "summary": "Activated carbon effectively removes unwanted tastes, colors, and impurities in food and beverage production, ensuring high purity and safety.",
     "content": [
       {
         "sectionTitle": "Caring for Food & Beverage Quality",
