@@ -58,7 +58,6 @@ const AboutSectionOne = () => {
           <SectionTitle
             title=""
             paragraph="
-                Vortix Story
                 Vortix Enterprise traces its values to a strong heritage of trust, responsibility, and innovation. Inspired by the pioneering spirit of early industrial giants, the company was founded to provide essential products for industrial use while maintaining a commitment to ethics and long-term partnerships. Through its ongoing collaboration with renowned industry leaders, Vortix has established a reputation for reliability, high standards, and a strong focus on sustainability in its business practices."
             mb="44px"
           />

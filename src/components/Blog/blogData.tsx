@@ -349,7 +349,7 @@ const blogData: any = [
   "author": "Your Name",
   "date": "2024-10-18",
   "categories": ["Odor Control", "Activated Carbon", "Deodorants"],
-  "tags": ["Activated Carbon", "Adsorption", "Odor Removal", "Deodorant", "Kalpaka Chemicals"],
+  "tags": ["Activated Carbon", "Adsorption", "Odor Removal", "Deodorant", "Vortix Chemicals"],
   "summary": "Activated carbon is widely used as a deodorant due to its ability to adsorb odor-causing chemicals. Its porous structure traps these compounds, making it effective for odor control in various environments.",
   "content": [
     {
@@ -373,7 +373,7 @@ const blogData: any = [
     {
       "sectionTitle": "Filter Quality",
       "paragraphs": [
-        "The quality and quantity of activated carbon in a filter determine its odor removal capacity. Kalpaka Chemicals provides high-quality activated carbon solutions with optimal performance for various applications."
+        "The quality and quantity of activated carbon in a filter determine its odor removal capacity. Vortix Chemicals provides high-quality activated carbon solutions with optimal performance for various applications."
       ]
     }
   ],
@@ -386,7 +386,7 @@ const blogData: any = [
   "references": [
     {
       "title": "Activated Carbon as Deodorant",
-      "url": "https://www.kalpakachemicals.com/blog/activated-carbon-deodorant/"
+      "url": "https://www.Vortixchemicals.com/blog/activated-carbon-deodorant/"
     }
   ]
 }

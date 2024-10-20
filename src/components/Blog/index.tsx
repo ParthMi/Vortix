@@ -13,7 +13,7 @@ const Blog = ({ fromHome }) => {
       <div className="container">
         <SectionTitle
           title="Our Latest Blogs"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="There are many variations of passages of Activated carbon available but the majority have suffered alteration in some form."
           center
         />
 

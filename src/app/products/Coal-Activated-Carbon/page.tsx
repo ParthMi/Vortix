@@ -70,7 +70,7 @@ const index = () => {
 
               {/* Additional Text */}
               <p className="w-full px-4 mt-4 lg:mt-6">
-                Coal Activated Carbon is used in applications that require lower cost, high availability, and high concentrations. At Kalpaka, we deliver Coal-based Activated Carbon with low impurity levels and lesser ash content. It is mainly used in industrial gas purification, potable water treatment, pond water purification, and wastewater treatment.
+                Coal Activated Carbon is used in applications that require lower cost, high availability, and high concentrations. At Vortix, we deliver Coal-based Activated Carbon with low impurity levels and lesser ash content. It is mainly used in industrial gas purification, potable water treatment, pond water purification, and wastewater treatment.
               </p>
 
               {/* Image Gallery */}

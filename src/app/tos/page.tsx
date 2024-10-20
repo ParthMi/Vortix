@@ -30,7 +30,7 @@ const page = () => {
                 </p>
                 <ul className="list-disc ml-5 mb-4">
                     <li>All payments must be made via wire transfer or another agreed method. Payment terms will be outlined in the invoice provided upon order confirmation.</li>
-                    <li>Payment must be made within the agreed timeframe, typically [Insert Days] days from the date of the invoice.</li>
+                    <li>Payment must be made within the agreed timeframe, typically 5 days from the date of the invoice.</li>
                     <li>Vortix Enterprise reserves the right to change pricing based on market conditions, including fluctuations in raw material costs or currency exchange rates. These changes will be communicated in advance.</li>
                 </ul>
 
@@ -93,7 +93,7 @@ const page = () => {
                     These TOS are governed by the laws of India, without regard to its conflict of law principles.
                 </p>
                 <p className="mb-4">
-                    Any dispute arising from or related to these TOS or the purchase of goods shall be resolved through arbitration in Surat, Gujarat, India. Both parties agree to the exclusive jurisdiction of the courts located in [Insert City, Country] for any legal proceedings.
+                    Any dispute arising from or related to these TOS or the purchase of goods shall be resolved through arbitration in Surat, Gujarat, India. Both parties agree to the exclusive jurisdiction of the courts located in Ahmedabad, Gujarat, India for any legal proceedings.
                 </p>
 
                 <h2 className="text-2xl font-semibold mt-6 mb-4">11. Force Majeure</h2>

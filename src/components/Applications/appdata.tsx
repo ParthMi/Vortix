@@ -109,7 +109,7 @@ const appdata: any = [
     "title": "Gold Recovery",
     "categories": ["Mining Applications", "Gold Recovery"],
     "tags": ["Activated Carbon", "Gold Adsorption", "CIP", "CIL", "CIC"],
-    "summary": "Activated carbon is crucial in gold recovery processes in mining, effectively adsorbing gold cyanide complexes in various systems. vortix enterprise offers a range of high-quality activated carbon products specifically designed for maximum gold recovery.",
+    "summary": "Activated carbon is crucial in gold recovery processes in mining, effectively adsorbing gold cyanide complexes in various systems. Vortix Enterprise offers a range of high-quality activated carbon products specifically designed for maximum gold recovery.",
     "content": [
       {
         "sectionTitle": "Gold Recovery Process",
@@ -150,7 +150,7 @@ const appdata: any = [
       {
         "sectionTitle": "Experience and Quality",
         "paragraphs": [
-          "vortix enterprise has been supplying top-quality activated carbon for many years to various gold mines across the globe, developing impressive and diversified products for the gold mining industries."
+          "Vortix Enterprise has been supplying top-quality activated carbon for many years to various gold mines across the globe, developing impressive and diversified products for the gold mining industries."
         ]
       }
     ],
@@ -168,14 +168,6 @@ const appdata: any = [
     "tags": ["Activated Carbon", "Purification", "Taste Removal", "Odor Removal", "Color Removal"],
     "summary": "Activated carbon effectively removes unwanted tastes, colors, and impurities in food and beverage production, ensuring high purity and safety.",
     "content": [
-      {
-        "sectionTitle": "Caring for Food & Beverage Quality",
-        "paragraphs": [
-          "Activated carbon removes unwanted colours, tastes, and odours in food and beverage products, enhancing their purity.",
-          "It ensures the highest level of water purification for beverage production.",
-          "Activated carbon also enhances the purity of local water sources used in food and beverage industries."
-        ]
-      },
       {
         "sectionTitle": "Applications in Food & Beverage Industry",
         "paragraphs": [
@@ -273,14 +265,14 @@ const appdata: any = [
         "sectionTitle": "Industrial Applications",
         "paragraphs": [
           "Industrial workers face toxic environments and must be protected from harmful chemicals.",
-          "vortix enterprise provides respirators for protection against various industrial chemicals such as ammonia, mercury, chlorine, and formaldehyde."
+          "Vortix Enterprise provides respirators for protection against various industrial chemicals such as ammonia, mercury, chlorine, and formaldehyde."
         ]
       },
       {
         "sectionTitle": "Military & Nuclear Applications",
         "paragraphs": [
           "Military personnel use high-quality activated carbon cartridges in gas masks to filter out chemical, biological, radiological, and nuclear (CBRN) agents.",
-          "vortix enterprise offers a range of impregnated carbons compliant with NIOSH, CEN, HSE, and OSHA for military and nuclear applications."
+          "Vortix Enterprise offers a range of impregnated carbons compliant with NIOSH, CEN, HSE, and OSHA for military and nuclear applications."
         ]
       }
     ],
@@ -374,9 +366,9 @@ const appdata: any = [
         ]
       },
       {
-        "sectionTitle": "vortix enterprise Activated Carbons",
+        "sectionTitle": "Vortix Enterprise Activated Carbons",
         "paragraphs": [
-          "vortix enterprise Activated Carbons is a leading supplier in the soil remediation sector, offering a range of products and services including:",
+          "Vortix Enterprise Activated Carbons is a leading supplier in the soil remediation sector, offering a range of products and services including:",
           "1. Granular activated carbon (GAC) grades for liquid phase remediation.",
           "2. Extruded pellets for VOC abatement and odor control.",
           "3. Sand filters for use alongside activated carbon vessels.",
