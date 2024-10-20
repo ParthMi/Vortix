@@ -57,13 +57,13 @@ const blogData: any = [
           {
             "subsectionTitle": "Water-Washed Activated Carbon",
             "paragraphs": [
-              "Known as Kalbon Aquapura, this high-purity carbon is produced from coconut shells and undergoes steam activation followed by water washing to ensure high purity."
+              "This high-purity carbon is produced from coconut shells and undergoes steam activation followed by water washing to ensure high purity."
             ]
           },
           {
             "subsectionTitle": "Acid-Washed Activated Carbon",
             "paragraphs": [
-              "Kalbon Crystal is a steam-activated coconut shell carbon that is acid-washed for additional purity, making it suitable for specific high-demand applications."
+              "This is a steam-activated coconut shell carbon that is acid-washed for additional purity, making it suitable for specific high-demand applications."
             ]
           },
           {
@@ -101,7 +101,7 @@ const blogData: any = [
       {
         "sectionTitle": "Introduction",
         "paragraphs": [
-          "Vortix Enterprise is one of the leading producers of powdered activated carbon, offering KALBON PAC, a reliable solution for treating effluents. Effluent treatment is critical in industrial processes, ensuring that discharge criteria are met and that water can be reused within the facility or elsewhere. With water reuse becoming increasingly important, activated carbon plays a crucial role due to its versatility."
+          "Vortix Enterprise is one of the leading producers of powdered activated carbon, a reliable solution for treating effluents. Effluent treatment is critical in industrial processes, ensuring that discharge criteria are met and that water can be reused within the facility or elsewhere. With water reuse becoming increasingly important, activated carbon plays a crucial role due to its versatility."
         ]
       },
       {
@@ -139,7 +139,7 @@ const blogData: any = [
       {
         "sectionTitle": "Conclusion",
         "paragraphs": [
-          "Vortix Enterprise is a leader in producing high-quality activated carbon, offering reliable solutions for effluent treatment. Their KALBON Powdered Activated Carbon is designed to meet the growing demands of industrial wastewater treatment while addressing future regulatory challenges."
+          "Vortix Enterprise is a leader in producing high-quality activated carbon, offering reliable solutions for effluent treatment. Their Powdered Activated Carbon is designed to meet the growing demands of industrial wastewater treatment while addressing future regulatory challenges."
         ]
       }
     ],

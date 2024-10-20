@@ -10,13 +10,13 @@ const appdata: any = [
       {
         "sectionTitle": "Air Purification - VOC Removal",
         "paragraphs": [
-          "Activated carbon is used for VOC removal in air emissions. Vortix Enterprise offers VayuSorb™ coal-based and coconut shell-based grades for various industries."
+          "Activated carbon is used for VOC removal in air emissions. Vortix Enterprise offers coal-based and coconut shell-based grades for various industries."
         ]
       },
       {
         "sectionTitle": "Gas Purification",
         "paragraphs": [
-          "In industrial processes, activated carbon purifies gas to prevent catalyst poisoning. vortix enterprise's ImpreCarb™ series handles specialized gases like acid gases, aldehydes, and mercury."
+          "In industrial processes, activated carbon purifies gas to prevent catalyst poisoning. At Vortix Enterprise, our products are engineered to handle specialized gases, including acid gases, aldehydes, and mercury. These high-performance activated carbon solutions ensure superior filtration and purification, delivering consistent results across a range of industrial applications."
         ]
       },
       {
@@ -252,7 +252,7 @@ const appdata: any = [
         "sectionTitle": "Mercury Removal",
         "paragraphs": [
           "Mercury emissions from coal-fired generators, cement kilns, industrial boilers, waste incinerators, and steel mills pose serious environmental concerns.",
-          "Regulatory agencies worldwide are introducing stricter regulations to limit mercury emissions. Activated carbon, specifically the PARASORB™ brand from Vortix Enterprise, achieves a removal efficiency of 98%."
+          "Global regulatory bodies are enforcing stricter limits on mercury emissions. Activated carbon solutions from Vortix Enterprise offer a 98% removal efficiency, ensuring compliance with these increasingly stringent standards."
         ]
       },
       {

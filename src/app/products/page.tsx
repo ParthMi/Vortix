@@ -8,8 +8,8 @@ const page = () => {
   const products = [
     {
       id: 1,
-      name: 'Coconut Shell Active Carbon',
-      href: '/products/Coconut-Shell-Active-Carbon',
+      name: 'Coconut Shell Activated Carbon',
+      href: '/products/Coconut-Shell-Activated-Carbon',
       imageSrc: '/images/products/coconut/pic3.jpg',
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },

@@ -3,7 +3,7 @@
 import { useParams } from 'next/navigation';
 import Data from "../../SubTypeData"; // Ensure correct path
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -39,6 +39,13 @@ export default function ProductDetailsPage() {
         "/img2.jpg",
         "/img3.jpg",
     ];
+    const maxColumns = Math.max(
+        ...Object.values(product.parameters).map(value => (Array.isArray(value) ? value.length : 1))
+    );
+
+    const maxColumnsacidWashed = product.acidWashed && Math.max(
+        ...Object.values(product.acidWashed).map(value => (Array.isArray(value) ? value.length : 1))
+    );
 
     // Render detailed product information
     return (
@@ -54,15 +61,19 @@ export default function ProductDetailsPage() {
                         {/* Left side - Image Carousel */}
                         <div className="lg:w-1/2">
                             <Swiper
-                                modules={[Navigation, Pagination]}
+                                modules={[Navigation, Pagination, Autoplay]}
                                 spaceBetween={30}
                                 navigation
                                 pagination={{ clickable: true }}
                                 className="mySwiper"
+                                autoplay={{ // Configure autoplay options
+                                    delay: 2000, // Delay between slides (in ms)
+                                    disableOnInteraction: false, // Autoplay won't stop on user interaction
+                                }}
                             >
                                 {productImages.map((img, idx) => (
                                     <SwiperSlide key={idx}>
-                                        <div className="relative w-full h-0" style={{ paddingBottom: '75%' }}> {/* Adjust padding here */}
+                                        <div className="relative w-full aspect-[4/3]"> {/* Use Tailwind aspect-ratio utility */}
                                             <Image
                                                 src={img}
                                                 alt={product.name}
@@ -75,6 +86,7 @@ export default function ProductDetailsPage() {
                                 ))}
                             </Swiper>
                         </div>
+
 
                         {/* Right side - Product Information */}
                         <div className="lg:w-1/2 lg:pl-8">
@@ -105,7 +117,7 @@ export default function ProductDetailsPage() {
                                             <th className="py-3 px-4 border-b border-gray-300 text-left text-sm font-semibold text-gray-700">
                                                 Parameter
                                             </th>
-                                            <th className="py-3 px-4 border-b border-gray-300 text-left text-sm font-semibold text-gray-700">
+                                            <th colSpan={maxColumns} className="py-3 px-4 border-b border-gray-300 text-left text-sm font-semibold text-gray-700">
                                                 Value
                                             </th>
                                         </tr>
@@ -117,12 +129,19 @@ export default function ProductDetailsPage() {
                                             return (
                                                 <tr key={idx} className={rowClass}>
                                                     <td className="py-3 px-4 text-gray-800 text-sm">{key}</td>
-                                                    <td className="py-3 px-4 text-gray-800 text-sm">{Array.isArray(value) ? value.join(', ') : value}</td>
+                                                    {Array.isArray(value) && (
+                                                        value.map((item, itemIdx) => (
+                                                            <td key={itemIdx} className="py-3 px-4 text-gray-800 text-sm">
+                                                                {item}
+                                                            </td>
+                                                        ))
+                                                    )}
                                                 </tr>
                                             );
                                         })}
                                     </tbody>
                                 </table>
+
                             </div>
                         </div>
 
@@ -136,7 +155,7 @@ export default function ProductDetailsPage() {
                                                 <th className="py-3 px-4 border-b border-gray-300 text-left text-sm font-semibold text-gray-700">
                                                     Parameter
                                                 </th>
-                                                <th className="py-3 px-4 border-b border-gray-300 text-left text-sm font-semibold text-gray-700">
+                                                <th colSpan={maxColumnsacidWashed} className="py-3 px-4 border-b border-gray-300 text-left text-sm font-semibold text-gray-700">
                                                     Value
                                                 </th>
                                             </tr>
@@ -145,14 +164,33 @@ export default function ProductDetailsPage() {
                                             {Object.entries(product.acidWashed).map(([key, value], idx) => {
                                                 const rowClass = `border-b border-gray-300 ${idx % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-gray-200 transition-colors`;
 
+                                                // Determine the number of columns to display
+                                                const maxCols = 6;
+
                                                 return (
                                                     <tr key={idx} className={rowClass}>
                                                         <td className="py-3 px-4 text-gray-800 text-sm">{key}</td>
-                                                        <td className="py-3 px-4 text-gray-800 text-sm">{Array.isArray(value) ? value.join(', ') : value}</td>
+                                                        {Array.isArray(value) ? (
+                                                            // Map through the value array to create <td> elements
+                                                            value.map((item, itemIdx) => (
+                                                                <td key={itemIdx} className="py-3 px-4 text-gray-800 text-sm">
+                                                                    {item}
+                                                                </td>
+                                                            ))
+                                                        ) : (
+                                                            <td className="py-3 px-4 text-gray-800 text-sm">{value}</td>
+                                                        )}
+                                                        {/* Fill remaining cells if the array length is less than maxCols */}
+                                                        {Array.isArray(value) && value.length < maxCols && (
+                                                            Array.from({ length: maxCols - value.length }).map((_, emptyIdx) => (
+                                                                <td key={emptyIdx} className="py-3 px-4 text-gray-800 text-sm"></td>
+                                                            ))
+                                                        )}
                                                     </tr>
                                                 );
                                             })}
                                         </tbody>
+
                                     </table>
                                 </div>
                             </div>

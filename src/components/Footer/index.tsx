@@ -10,13 +10,13 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block relative h-12 w-32"> {/* Adjust height and width here */}
+                <Link href="/" className="mb-8 inline-block relative h-[50px] w-[200px]"> {/* Adjust height and width here */}
                   <Image
                     src="/images/logo/logo.png"
                     alt="Footer Logo"
                     layout="fixed" // Use 'fixed' to set explicit width and height
-                    width={128} // Set desired width in pixels
-                    height={48} // Set desired height in pixels
+                    width={185} // Set desired width in pixels
+                    height={58} // Set desired height in pixels
                     objectFit="contain" // or 'cover' based on your design needs
                   />
                 </Link>
@@ -145,7 +145,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/tos"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       TOS
@@ -153,7 +153,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/privacy-policy"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Privacy Policy

@@ -11,13 +11,13 @@ const productsData = [
       "Renewable and green raw material."
     ],
     "parameters": {
-      "coarsenessMesh": ["4x8", "6x12", "8x16", "10x20", "20x40", "40x60"],
-      "iodineAbsorb": [850, 950, 1050, 1100, 1200],
-      "specificSurfaceArea": [900, 1000, 1100, 1200, 1350],
-      "hardness": [98, 98, 96, 96, 95],
-      "moisture": [5, 5, 5, 5, 5],
-      "ash": [10, 10, 10, 5, 5],
-      "loadingDensity": [500, 550, 600, 650, 750]
+      "Coarseness Mesh": ["4x8", "6x12", "8x16", "10x20", "20x40", "40x60"],
+      "Iodine Absorb": [850, 950, 1050, 1100, 1200, ""],
+      "Specific Surface Area": [900, 1000, 1100, 1200, 1350, ""],
+      "Hardness": [98, 98, 96, 96, 95, ""],
+      "Moisture": [5, 5, 5, 5, 5, ""],
+      "Ash": [10, 10, 10, 5, 5, ""],
+      "Loading Density": [500, 550, 600, 650, 750, ""]
     },
     "applications": [
       "Water filter",
@@ -64,25 +64,26 @@ const productsData = [
       "Insoluble in general solvents and acid and alkali"
     ],
     "parameters": {
-      "coarsenessMesh": ["100", "200", "250", "300"],
-      "caramelDecolorizationCapacity": "≥120",
-      "methyleneBlueAdsorptionValue": "150-350",
-      "chloride": "≤0.1—0.2",
-      "pH": "adjustable",
-      "ash": "≤10",
-      "moisture": "<10",
+      "Coarseness Mesh": ["100", "200", "250", "300", "", ""],
+      "Caramel Decolorization Capacity": ["≥120", "", "", "", "", ""],
+      "Methylene Blue Adsorption Value": ["150-350", "", "", "", "", ""],
+      "Chloride": ["≤0.1—0.2", "", "", "", "", ""],
+      "P H": ["adjustable", "", "", "", "", ""],
+      "Ash": ["≤10", "", "", "", "", ""],
+      "Moisture": ["<10", "", "", "", "", ""]
     },
     "acidWashed": {
-      "meshSize": ["200", "200", "200"],
-      "methyleneBlueAdsorption": ["≥210-285", "180-200", "150-285"],
-      "iodineValue": ["≥850-1100", "850-1100", "800-1100"],
-      "pH": ["6-7", "6-7", "6-7"],
-      "chloride": "≤0.20",
-      "totalFeContent": "≤0.02-0.1",
-      "heavyMetal": "≤30",
-      "ashContent": ["3-7", "3-4", "3-10"],
-      "moisture": "≤10"
-    },
+      "Mesh Size": ["200", "200", "200", "", "", ""],
+      "Methylene Blue Adsorption": ["≥210-285", "180-200", "150-285", "", "", ""],
+      "Iodine Value": ["≥850-1100", "850-1100", "800-1100", "", "", ""],
+      "pH": ["6-7", "6-7", "6-7", "", "", ""],
+      "Chloride": ["≤0.20", "", "", "", "", ""],
+      "Total Fe Content": ["≤0.02-0.1", "", "", "", "", ""],
+      "Heavy Metal": ["≤30", "", "", "", "", ""],
+      "Ash Content": ["3-7", "3-4", "3-10", "", "", ""],
+      "Moisture": ["≤10", "", "", "", "", ""]
+    }
+    ,
     "applications": [
       "Used in various amino acid industries, decolorization, purification, deodorization, and decontamination of high pigment solutions.",
       "Decolorization, impurity removal, and refinement of medicines and food additives.",
@@ -128,13 +129,13 @@ const productsData = [
       "High microporous structure"
     ],
     "parameters": {
-      "coarsenessMesh": ["4x8", "8x16", "16x32", "32x60"],
-      "iodineAbsorb": [600, 800, 900, 1000, 1100],
-      "specificSurfaceArea": [660, 850, 970, 1050, 1180],
-      "hardness": [90, 90, 90, 90, 90],
-      "moisture": [5, 5, 5, 5, 5],
-      "ash": [10, 10, 10, 10, 10],
-      "loadingDensity": ["600-650", "550-600", "500-550", "450-520", "430"]
+      "Coarseness Mesh": ["4x8", "8x16", "16x32", "32x60", "", ""],
+      "Iodine Absorb": ["≥600", "≥800", "≥900", "≥1000", "≥1100", ""],
+      "Specific Surface Area": [660, 850, 970, 1050, 1180, ""],
+      "Hardness": ["≥90", "≥90", "≥90", "≥90", "≥90", ""],
+      "Moisture": ["≤5", "≤5", "≤5", "≤5","≤5", ""],
+      "Ash": ["≤10", "≤10", "≤10", "≤10", "≤10", ""],
+      "Loading Density": ["600-650", "550-600", "500-550", "450-520", "430", ""]
     },
     "applications": [
       "Wastewater treatment",
@@ -176,13 +177,13 @@ const productsData = [
       "Customized size/mesh"
     ],
     "parameters": {
-      "coarsenessMesh": ["50", "100", "200", "250", "300"],
-      "iodineNumber": "500-1000",
-      "specificSurfaceArea": "580-1100",
-      "methyleneBlue": "90-130",
-      "pH": "7-11",
-      "ash": "≤10",
-      "moisture": "<5"
+      "Coarseness Mesh": ["50", "100", "200", "250", "300", ""],
+      "Iodine Number": ["500-1000", "", "", "", "", ""],
+      "Specific Surface Area": ["580-1100", "", "", "", "", ""],
+      "Methylene Blue": ["90-130", "", "", "", "", ""],
+      "pH": ["7-11", "", "", "", "", ""],
+      "Ash": ["≤10", "", "", "", "", ""],
+      "Moisture": ["<5", "", "", "", "", ""]
     },
     "applications": [
       "Water treatment",
@@ -226,13 +227,13 @@ const productsData = [
       "Insoluble in general solvents and acid and alkali"
     ],
     "parameters": {
-      "coarsenessMesh": ["100", "200", "250", "300"],
-      "caramelDecolorizationCapacity": "≥120",
-      "methyleneBlueAdsorption": "150-350",
-      "chloride": "≤0.1—0.2",
-      "pH": "adjustable",
-      "ash": "≤10",
-      "moisture": "<10"
+      "Coarseness Mesh": ["100", "200", "250", "300", "", ""],
+      "Caramel Decolorization Capacity": ["≥120", "", "", "", "", ""],
+      "Methylene Blue Adsorption": ["150-350", "", "", "", "", ""],
+      "Chloride": ["≤0.1—0.2", "", "", "", "", ""],
+      "pH": ["adjustable", "", "", "", "", ""],
+      "Ash": ["≤10", "", "", "", "", ""],
+      "Moisture": ["<10", "", "", "", "", ""]
     },
     "applications": [
       "Caramel bleaching",

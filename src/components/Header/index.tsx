@@ -50,6 +50,13 @@ const Header = () => {
 
   const usePathName = usePathname();
 
+  const handleDownload = () => {
+    const fileUrl = "/Vortix-Enterprise-Brochure.pdf"; // Adjust the file path if necessary
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = 'Brochure'; // The name of the file once downloaded
+    link.click();
+  };
   return (<>
     <header
       className={`header left-0 top-0 z-40 flex w-full items-center ${sticky
@@ -230,13 +237,22 @@ const Header = () => {
                       )}
                     </li>
                   ))}
+                  <li>
+                    <span
+                      onClick={handleDownload} // Close on click
+                      className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 
+                       text-dark hover:text-primary dark:text-white/70 dark:hover:text-white`}
+                    >
+                      Brochure
+                    </span>
+                  </li>
                 </ul>
               </nav>
             </div>
             <div className="flex items-center justify-end pr-16 lg:pr-0">
               <Link
                 href="/contact"
-                className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
+                className="cursor-pointer ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
               >
                 Enquire Now
               </Link>

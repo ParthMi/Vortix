@@ -41,10 +41,20 @@ const Hero = () => {
         id="home"
         className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-        <video autoPlay loop muted playsInline className="absolute top-0 left-0 w-full h-full object-cover z-0">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-100 filter blur-sm"
+          style={{
+            filter: 'blur(5px) brightness(1)', // Adjust blur and brightness
+          }}
+        >
           <source src="/bg.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+
         <div className="container relative z-10">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -52,14 +62,24 @@ const Hero = () => {
                 <h1 data-aos="fade-up" className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Global Leaders in High-Quality Activated Carbon Solution
                 </h1>
-                <p data-aos="fade-up"  data-aos-delay={100} className="mb-12 text-base !leading-relaxed text-body-color-dark dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Providing superior Activated Carbon for west water treatment, air purification, oil refineries and more. Our commitment to quality and reliability ensures the best solution for your industry, backed by exceptional customer service.
-                </p>
+                <p data-aos="fade-up" data-aos-delay={100} className="mb-12 text-base !leading-relaxed text-dark  sm:text-lg md:text-xl">
+                  Providing premium activated carbon solutions for wastewater treatment, air purification, oil refineries, and more. Our unwavering commitment to quality and reliability ensures the best solutions for your industry, all backed by exceptional customer service.                </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                  data-aos="fade-up"
+                    data-aos="fade-up"
+                    href="/Vortix-Enterprise-Brochure.pdf" // Path to the PDF file
+                    download="Vortix-Enterprise-Brochure.pdf" // Specify file download name
+                    target="_blank" // Optional: open in new tab if needed
+                    rel="noopener noreferrer" // Optional: security feature for external links
+                    className="inline-block rounded-sm bg-orange px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-opacity-90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                  >
+                    View Brochure
+                  </Link>
+
+                  <Link
+                    data-aos="fade-up"
                     href="/about"
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="inline-block rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-opacity-90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     Read More
                   </Link>

@@ -5,9 +5,11 @@ const Contact = () => {
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28" style={{
       backgroundImage: 'url("/images/contact/black-coal.jpg")',
       backgroundRepeat: 'no-repeat',
-      backgroundAttachment: 'fixed',
+      // backgroundAttachment: 'fixed',
       backgroundSize: "cover",
-    backgroundPosition: "center",
+      backgroundPosition: "center",
+      backgroundPositionY: "300px",
+      borderRadius: "50px"
     }}>
       <div className="container">
         <div className="-mx-4 flex flex-wrap">

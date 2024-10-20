@@ -22,8 +22,8 @@ const menuData:any= [
     submenu: [
       {
         id: 41,
-        title: "Coconut Shell Active Carbon",
-        path: "/products/Coconut-Shell-Active-Carbon",
+        title: "Coconut Shell Activated Carbon",
+        path: "/products/Coconut-Shell-Activated-Carbon",
         newTab: false,
       },
       {
@@ -63,6 +63,6 @@ const menuData:any= [
     title: "Blogs",
     path: "/blog",
     newTab: false,
-  },
+  }
 ];
 export default menuData;

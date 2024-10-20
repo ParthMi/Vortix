@@ -23,7 +23,7 @@ const index = () => {
               </div>
 
               <div className="w-full px-4 lg:w-1/2 mt-4 md:mt-0">
-                <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+                <div className="relative mx-auto aspect-[25/24] max-w-[300px] ">
                   <Image
                     src="/images/products/pellets-activated-carbon.jpg"
                     alt="about-image"
@@ -164,61 +164,61 @@ const index = () => {
               <div className='w-full'>
                 <span>H2S Grade -</span>
                 <div className="w-full overflow-x-auto py-6">
-                <table className="table-auto w-[100%] border-collapse border border-gray-200">
-                  <thead>
-                    <tr className="bg-primary text-white">
-                      <th className="border border-gray-300 p-4 text-left">Parameters</th>
-                      <th className="border border-gray-300 p-4 text-left">Result</th>
-                      <th className="border border-gray-300 p-4 text-left">Unit</th>
-                      <th className="border border-gray-300 p-4 text-left">Test Method</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="border border-gray-300 p-4">Particle Size (Diameter)</td>
-                      <td className="border border-gray-300 p-4">4.03</td>
-                      <td className="border border-gray-300 p-4">mm</td>
-                      <td className="border border-gray-300 p-4">ASTM D-2862-16</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-300 p-4">CTC Activity</td>
-                      <td className="border border-gray-300 p-4">60.37</td>
-                      <td className="border border-gray-300 p-4">%</td>
-                      <td className="border border-gray-300 p-4">ASTM D-3467-14</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-300 p-4">Moisture Content</td>
-                      <td className="border border-gray-300 p-4">3.46</td>
-                      <td className="border border-gray-300 p-4">%</td>
-                      <td className="border border-gray-300 p-4">ASTM D-2867-14</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-300 p-4">H2S</td>
-                      <td className="border border-gray-300 p-4">0.334	</td>
-                      <td className="border border-gray-300 p-4">g/cc</td>
-                      <td className="border border-gray-300 p-4"></td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-300 p-4">Apparent Density</td>
-                      <td className="border border-gray-300 p-4">0.486</td>
-                      <td className="border border-gray-300 p-4">g/cc</td>
-                      <td className="border border-gray-300 p-4">ASTM D-2854-14</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-300 p-4">Ball pan Hardness Number	</td>
-                      <td className="border border-gray-300 p-4">	98.51</td>
-                      <td className="border border-gray-300 p-4">Number</td>
-                      <td className="border border-gray-300 p-4">ASTM D-3802-16</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-300 p-4">pH</td>
-                      <td className="border border-gray-300 p-4">10.51</td>
-                      <td className="border border-gray-300 p-4"></td>
-                      <td className="border border-gray-300 p-4">ASTM D-6851-11</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+                  <table className="table-auto w-[100%] border-collapse border border-gray-200">
+                    <thead>
+                      <tr className="bg-primary text-white">
+                        <th className="border border-gray-300 p-4 text-left">Parameters</th>
+                        <th className="border border-gray-300 p-4 text-left">Result</th>
+                        <th className="border border-gray-300 p-4 text-left">Unit</th>
+                        <th className="border border-gray-300 p-4 text-left">Test Method</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border border-gray-300 p-4">Particle Size (Diameter)</td>
+                        <td className="border border-gray-300 p-4">4.03</td>
+                        <td className="border border-gray-300 p-4">mm</td>
+                        <td className="border border-gray-300 p-4">ASTM D-2862-16</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 p-4">CTC Activity</td>
+                        <td className="border border-gray-300 p-4">60.37</td>
+                        <td className="border border-gray-300 p-4">%</td>
+                        <td className="border border-gray-300 p-4">ASTM D-3467-14</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 p-4">Moisture Content</td>
+                        <td className="border border-gray-300 p-4">3.46</td>
+                        <td className="border border-gray-300 p-4">%</td>
+                        <td className="border border-gray-300 p-4">ASTM D-2867-14</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 p-4">H2S</td>
+                        <td className="border border-gray-300 p-4">0.334	</td>
+                        <td className="border border-gray-300 p-4">g/cc</td>
+                        <td className="border border-gray-300 p-4"></td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 p-4">Apparent Density</td>
+                        <td className="border border-gray-300 p-4">0.486</td>
+                        <td className="border border-gray-300 p-4">g/cc</td>
+                        <td className="border border-gray-300 p-4">ASTM D-2854-14</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 p-4">Ball pan Hardness Number	</td>
+                        <td className="border border-gray-300 p-4">	98.51</td>
+                        <td className="border border-gray-300 p-4">Number</td>
+                        <td className="border border-gray-300 p-4">ASTM D-3802-16</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 p-4">pH</td>
+                        <td className="border border-gray-300 p-4">10.51</td>
+                        <td className="border border-gray-300 p-4"></td>
+                        <td className="border border-gray-300 p-4">ASTM D-6851-11</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
               </div>
             </div>
