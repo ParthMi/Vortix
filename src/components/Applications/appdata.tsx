@@ -16,7 +16,7 @@ const appdata: any = [
       {
         "sectionTitle": "Gas Purification",
         "paragraphs": [
-          "In industrial processes, activated carbon purifies gas to prevent catalyst poisoning. Kalimati's ImpreCarb™ series handles specialized gases like acid gases, aldehydes, and mercury."
+          "In industrial processes, activated carbon purifies gas to prevent catalyst poisoning. vortix enterprise's ImpreCarb™ series handles specialized gases like acid gases, aldehydes, and mercury."
         ]
       },
       {
@@ -38,12 +38,12 @@ const appdata: any = [
     "title": "Water Filter Cartridges",
     "categories": ["Water Purification", "Home Filtration", "Activated Carbon Filters"],
     "tags": ["Activated Carbon", "POU Filters", "POE Filters", "Water Filtration"],
-    "summary": "Activated carbon filters are used in home water purification systems to remove taste, odor, organic compounds, chlorine, and some metals. Kalimati's NeerSorb™ C series offers various grades for chlorine reduction, chloramine removal, and bacteriostatic properties.",
+    "summary": "Activated carbon filters are used in home water purification systems to remove taste, odor, organic compounds, chlorine, and some metals. vortix enterprise's NeerSorb™ C series offers various grades for chlorine reduction, chloramine removal, and bacteriostatic properties.",
     "content": [
       {
         "sectionTitle": "Point of Use (POU) Filters",
         "paragraphs": [
-          "POU filters are typically installed to treat water used for drinking and cooking. These filters come in different formats such as faucet, countertop, or under-sink systems. Kalimati offers specialized products like catalytic grades for chloramine removal and silver-impregnated grades for bacteriostatic properties."
+          "POU filters are typically installed to treat water used for drinking and cooking. These filters come in different formats such as faucet, countertop, or under-sink systems. vortix enterprise offers specialized products like catalytic grades for chloramine removal and silver-impregnated grades for bacteriostatic properties."
         ]
       },
       {
@@ -109,7 +109,7 @@ const appdata: any = [
     "title": "Gold Recovery",
     "categories": ["Mining Applications", "Gold Recovery"],
     "tags": ["Activated Carbon", "Gold Adsorption", "CIP", "CIL", "CIC"],
-    "summary": "Activated carbon is crucial in gold recovery processes in mining, effectively adsorbing gold cyanide complexes in various systems. Kalimati offers a range of high-quality activated carbon products specifically designed for maximum gold recovery.",
+    "summary": "Activated carbon is crucial in gold recovery processes in mining, effectively adsorbing gold cyanide complexes in various systems. vortix enterprise offers a range of high-quality activated carbon products specifically designed for maximum gold recovery.",
     "content": [
       {
         "sectionTitle": "Gold Recovery Process",
@@ -150,7 +150,7 @@ const appdata: any = [
       {
         "sectionTitle": "Experience and Quality",
         "paragraphs": [
-          "Kalimati has been supplying top-quality activated carbon for many years to various gold mines across the globe, developing impressive and diversified products for the gold mining industries."
+          "vortix enterprise has been supplying top-quality activated carbon for many years to various gold mines across the globe, developing impressive and diversified products for the gold mining industries."
         ]
       }
     ],
@@ -166,7 +166,7 @@ const appdata: any = [
     "title": "Food & Beverages",
     "categories": ["Food Applications", "Beverage Applications"],
     "tags": ["Activated Carbon", "Purification", "Taste Removal", "Odor Removal", "Color Removal"],
-    "summary": "Activated carbon effectively removes unwanted tastes, colors, and impurities in food and beverage production, ensuring high purity and safety. Kalimati's VarnaSorb™, CaneSorb™, and Purifo™ products are ideal for these applications.",
+    "summary": "Activated carbon effectively removes unwanted tastes, colors, and impurities in food and beverage production, ensuring high purity and safety. vortix enterprise's VarnaSorb™, CaneSorb™, and Purifo™ products are ideal for these applications.",
     "content": [
       {
         "sectionTitle": "Caring for Food & Beverage Quality",
@@ -273,14 +273,14 @@ const appdata: any = [
         "sectionTitle": "Industrial Applications",
         "paragraphs": [
           "Industrial workers face toxic environments and must be protected from harmful chemicals.",
-          "Kalimati provides respirators for protection against various industrial chemicals such as ammonia, mercury, chlorine, and formaldehyde."
+          "vortix enterprise provides respirators for protection against various industrial chemicals such as ammonia, mercury, chlorine, and formaldehyde."
         ]
       },
       {
         "sectionTitle": "Military & Nuclear Applications",
         "paragraphs": [
           "Military personnel use high-quality activated carbon cartridges in gas masks to filter out chemical, biological, radiological, and nuclear (CBRN) agents.",
-          "Kalimati offers a range of impregnated carbons compliant with NIOSH, CEN, HSE, and OSHA for military and nuclear applications."
+          "vortix enterprise offers a range of impregnated carbons compliant with NIOSH, CEN, HSE, and OSHA for military and nuclear applications."
         ]
       }
     ],
@@ -374,9 +374,9 @@ const appdata: any = [
         ]
       },
       {
-        "sectionTitle": "Kalimati Activated Carbons",
+        "sectionTitle": "vortix enterprise Activated Carbons",
         "paragraphs": [
-          "Kalimati Activated Carbons is a leading supplier in the soil remediation sector, offering a range of products and services including:",
+          "vortix enterprise Activated Carbons is a leading supplier in the soil remediation sector, offering a range of products and services including:",
           "1. Granular activated carbon (GAC) grades for liquid phase remediation.",
           "2. Extruded pellets for VOC abatement and odor control.",
           "3. Sand filters for use alongside activated carbon vessels.",

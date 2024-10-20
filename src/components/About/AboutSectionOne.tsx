@@ -25,8 +25,8 @@ const AboutSectionOne = () => {
           <div className="-mx-2 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Manufacturer Of High Grade Activated Carbon"
-                paragraph="Vortix Enterprise Pvt Ltd is a leading manufacturer, developer, and supplier of high-quality activated carbon used across various industries, including gas and air treatment, water purification, pharmaceuticals, food and beverage, chemicals, industrial catalysts, energy, and mining. Specializing in enterprise-level solutions, Vortix customizes activated carbon products to meet specific client requirements. With over a decade of experience in manufacturing and product development, the company offers a wide range of products derived from diverse raw materials such as lignite, peat, bituminous coal, coconut, and wood."
+                title="Supplier Of High Grade Activated Carbon"
+                paragraph="Vortix Enterprise Pvt Ltd is a leading developer, and supplier of high-quality activated carbon used across various industries, including gas and air treatment, water purification, pharmaceuticals, food and beverage, chemicals, industrial catalysts, energy, and mining. Specializing in enterprise-level solutions, Vortix customizes activated carbon products to meet specific client requirements. With over the years of experience in product development, the company offers a wide range of products derived from diverse raw materials such as lignite, peat, bituminous coal, coconut, and wood."
                 mb="44px"
               />
               <SectionTitle

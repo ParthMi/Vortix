@@ -59,7 +59,7 @@ const Header = () => {
     >
       <div className="container">
         {!sticky &&
-          <div className={`hidden semi-topbar rounded-md px-3 mt-2 md:flex bg-[#006AA7] text-white justify-between items-center `}>
+          <div className={`hidden semi-topbar rounded-md px-3 mt-2 md:flex bg-[#0e508a] text-white justify-between items-center `}>
             <div className="flex gap-2 items-center">
               <div className="flex items-center gap-2"><span><FaPhoneAlt /></span><span>+91 95105 95121</span></div>
               <RxDividerVertical size={25} />

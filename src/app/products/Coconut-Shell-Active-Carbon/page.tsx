@@ -76,7 +76,7 @@ const index = () => {
         {/* Additional Information Section */}
         <div className="my-4 px-4">
           <p>
-            We are one of the leading Coconut Activated Carbon manufacturers in India, producing up to 51 metric tons per day, resulting in an annual output of 18,600 metric tons. Our Coconut Shell Activated Carbon is crucial for the purification and treatment of water, gas, air, gold extraction, and many other industrial applications. Known for its longevity and effectiveness, it is commonly used in air purification, wastewater treatment, and the recovery of volatile organic compounds (VOCs).
+            Our Coconut Shell Activated Carbon is crucial for the purification and treatment of water, gas, air, gold extraction, and many other industrial applications. Known for its longevity and effectiveness, it is commonly used in air purification, wastewater treatment, and the recovery of volatile organic compounds (VOCs).
           </p>
           <p>
             Our product’s microporous structure ensures optimal adsorption of organic impurities, making it especially effective in applications where precision and purity are critical. With a commitment to sustainability, our production process emphasizes eco-friendliness, ensuring a minimal environmental impact while providing a highly efficient filtration solution.

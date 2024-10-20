@@ -52,8 +52,8 @@ const Hero = () => {
                 <h1 data-aos="fade-up" className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Global Leaders in High-Quality Activated Carbon Solution
                 </h1>
-                <p data-aos="fade-up"  data-aos-delay={100} className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Providing superior Activated Carbon for wastwater treatment, air purification, oil refineries and more. Our commitment to quality and reliability ensures the best solution for your industry, backed by exceptional customer service.
+                <p data-aos="fade-up"  data-aos-delay={100} className="mb-12 text-base !leading-relaxed text-body-color-dark dark:text-body-color-dark sm:text-lg md:text-xl">
+                  Providing superior Activated Carbon for west water treatment, air purification, oil refineries and more. Our commitment to quality and reliability ensures the best solution for your industry, backed by exceptional customer service.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
